@@ -408,24 +408,8 @@ form:hover .form-button button{
     .nav-item{
         text-align: center;
     }
-    .hari, #servicediv, .project-work,.pricing , .card ,.happyclients ,.contactus ,.footersection,.newsletter{
-        width: 100%;
-        height: auto;
-    }
-    .pricing , .happyclients, .contactus, {
-        
-        height: auto;
-        margin-top: 50px;
-
-    }
-    .contactus p{
-        padding: 0 50px;
-    }
-    #footerdiv:nth-child(2){
-        text-align: left !important;
-
-    }
-    #footerdiv{
-        margin: 30px;
+    body{
+        width: fit-content;
+        height: fit-content;
     }
 }
