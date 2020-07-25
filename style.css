@@ -406,10 +406,23 @@ form:hover .form-button button{
 
 @media(max-width: 768px){
     .nav-item{
-        text-align: center;
+        text-align: center !important;
     }
     body{
         width: 100%;
         height: 100%;
     }
-}
+    .pricing , .happyclients, .contactus , .footersection{
+        height: auto;
+        margin-top: 50px;
+
+    }
+    .card-header{
+        margin-bottom: 10px;
+        padding-bottom: 20px;
+    }
+    .footer-hari{
+        text-align: left !important;
+
+    }    
+} 
